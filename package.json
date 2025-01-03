@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "dev": "app.js"
+    "build": "npm install",
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
