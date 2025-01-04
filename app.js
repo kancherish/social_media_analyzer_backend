@@ -128,11 +128,9 @@ fastify.get('/health', async () => {
 // Example route
 fastify.get('/insights/:keyword', async (request, reply) => {
     const {keyword} = request.params;
-    console.log(keyword,"\n\n\n");
     
     const response = await getInsights(keyword)
     return response
-
 });
 
 // Error handler
